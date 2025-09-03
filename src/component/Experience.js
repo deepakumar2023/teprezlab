@@ -19,7 +19,7 @@ function Experience() {
               <CountUp
                 start={0}
                 end={stat.value}
-                duration={1.5}
+                duration={8.5}
                 separator=","
                 decimals={stat.suffix === "M" ? 1 : 0}
               />

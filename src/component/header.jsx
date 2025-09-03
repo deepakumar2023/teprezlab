@@ -10,30 +10,34 @@ export default function Header() {
     { name: "Home", link: "/" },
     { name: "About Us", link: "/about" },
     { name: "Services", link: "/services" },
-    { name: "Gallery", link: "gallery" },
-    { name: "Contact Us", link: "contact-us" },
+    { name: "Gallery", link: "/gallery" },
+    { name: "Contact Us", link: "/contact-us" },
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white z-50 ">
+    <header className="fixed top-0 left-0 w-full bg-white z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-        <div className="flex items-center">
-          <img src="https://teprezlab.com/images/TEP_logo5.png" alt="Logo" className="h-15 w-auto" />
-        </div>
+          <div className="flex items-center">
+            <img
+              src="https://teprezlab.com/images/TEP_logo5.png"
+              alt="Logo"
+              className="h-15 w-auto"
+            />
+          </div>
         </Link>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-8">
           {menuItems.map((item) => (
-            <a
+            <Link
               key={item.name}
               href={item.link}
               className="text-black font-semibold hover:text-blue-400 transition"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -61,13 +65,13 @@ export default function Header() {
         <ul className="flex flex-col space-y-6 p-6">
           {menuItems.map((item) => (
             <li key={item.name}>
-              <a
+              <Link
                 href={item.link}
                 className="block text-lg font-medium hover:text-blue-400"
                 onClick={() => setOpen(false)}
               >
                 {item.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

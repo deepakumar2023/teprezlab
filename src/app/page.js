@@ -13,11 +13,12 @@ export default function Home() {
     <div  >
 
 <VideoSection/>
-{/* <EventServices/> */}
+
 <TargetEvent/>
 <Experience/>
-{/* <EventSlider/> */}
-<HomeSlider/>
+<EventSlider/>
+<EventServices/>
+{/* <HomeSlider/> */}
     </div>
   );
 }

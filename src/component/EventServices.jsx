@@ -2,22 +2,22 @@
 import React from "react";
 
 const services = [
-  { title: "BUSINESS EVENTS MANAGEMENT", img: "/img/business.jpg" },
-  { title: "SALES PROMOTION", img: "/img/sales.jpg" },
-  { title: "DELEGATE MANAGEMENT", img: "/img/delegate.jpg" },
-  { title: "FOOD AND BEVERAGES", img: "/img/food.jpg" },
-  { title: "EXHIBITION ORGANIZATION AND MANAGEMENT", img: "/img/exhibition.jpg" },
-  { title: "VENUE IDENTIFICATION", img: "/img/venue.jpg" },
-  { title: "REGISTRATIONS", img: "/img/register.jpg" },
-  { title: "TRANSPORTATION", img: "/img/transport.jpg" },
-  { title: "PROFESSIONAL MANAGEMENT DEVELOPMENT TRAINING", img: "/img/training.jpg" },
-  { title: "DESTINATION MANAGEMENT", img: "/img/destination.jpg" },
-  { title: "ACCOMMODATIONS", img: "/img/hotel.jpg" },
-  { title: "AV/PRODUCTION", img: "/img/av.jpg" },
-  { title: "LEGAL PERMITS", img: "/img/legal.jpg" },
-  { title: "EXHIBITION SERVICES", img: "/img/exhibition2.jpg" },
-  { title: "TEAM BUILDING ACTIVITIES", img: "/img/team.jpg" },
-  { title: "ONSITE SUPPORT", img: "/img/onsite.jpg" },
+  { title: "BUSINESS EVENTS MANAGEMENT", img: "/dimondshape/business.jpg" },
+  { title: "SALES PROMOTION", img: "/dimondshape/SalesPromotion.jpg" },
+  { title: "DELEGATE MANAGEMENT", img: "/dimondshape/Delegate_Management.jpg" },
+  { title: "FOOD AND BEVERAGES", img: "/dimondshape/Food_Beverages.jpg" },
+  { title: "EXHIBITION ORGANIZATION AND MANAGEMENT", img: "/dimondshape/ExhibitionOrganization.jpg" },
+  { title: "VENUE IDENTIFICATION", img: "/dimondshape/Venue_Identification.jpg" },
+  { title: "REGISTRATIONS", img: "/dimondshape/Registrations.jpg" },
+  { title: "TRANSPORTATION", img: "/dimondshape/Transportation.jpg" },
+  { title: "PROFESSIONAL MANAGEMENT DEVELOPMENT TRAINING", img: "/dimondshape/ProfessionalManagement.png" },
+  { title: "DESTINATION MANAGEMENT", img: "/dimondshape/DestinationManagement.jpg" },
+  { title: "ACCOMMODATIONS", img: "/dimondshape/Accommodations.jpg" },
+  { title: "AV/PRODUCTION", img: "/dimondshape/AV_Production.jpg" },
+  { title: "LEGAL PERMITS", img: "/dimondshape/Legal_Permits.jpg" },
+  { title: "EXHIBITION SERVICES", img: "/dimondshape/Exhibition_Services.jpg" },
+  { title: "TEAM BUILDING ACTIVITIES", img: "/dimondshape/Team_Building.jpg" },
+  { title: "ONSITE SUPPORT", img: "/dimondshape/Onsite_support.jpg" },
 ];
 
 export default function EventServices() {
@@ -39,23 +39,27 @@ export default function EventServices() {
         </div>
 
         {/* Right Section - Diamond Grid */}
-        <div className="grid grid-cols-4 gap-6 justify-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 justify-items-center">
           {services.map((service, index) => (
-            <div
-              key={index}
-              className="relative transform rotate-45 w-28 h-28 bg-white shadow-md flex items-center justify-center overflow-hidden"
-            >
-              {/* Image */}
-              <img
-                src={service.img}
-                alt={service.title}
-                className="absolute w-full h-full object-cover -rotate-45"
-              />
-              {/* Overlay Text */}
-              <div className="absolute inset-0 bg-black/50 flex items-center justify-center -rotate-45 p-2">
-                <p className="text-white text-[10px] font-semibold text-center leading-tight">
-                  {service.title}
-                </p>
+            <div key={index} className="flex items-center justify-center p-4">
+              {/* Group wrapper for hover */}
+              <div className="group relative w-28 h-28 bg-white shadow-md transform rotate-45 flex items-center justify-center overflow-hidden transition-colors duration-300 hover:bg-black">
+                {/* Inside content (straight) */}
+                <div className="-rotate-45 flex flex-col items-center justify-between w-[65px] p-2">
+                  {/* Image on Top */}
+                  <div className="flex-1 flex items-center justify-center relative -top-3">
+                    <img
+                      src={service.img}
+                      alt={service.title}
+                      className="w-[50px] h-10 object-cover rounded-[8%]"
+                    />
+                  </div>
+
+                  {/* Text on Bottom */}
+                  <p className="text-[9px] text-center text-gray-800 transition-colors duration-300 group-hover:text-white">
+                    {service.title}
+                  </p>
+                </div>
               </div>
             </div>
           ))}

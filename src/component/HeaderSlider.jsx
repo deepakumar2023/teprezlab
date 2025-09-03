@@ -13,7 +13,7 @@ export default function VideoSection() {
         playsInline
       >
         <source
-          src="https://cdn.pixabay.com/video/2015/12/11/1630-148614385_large.mp4"
+          src="/images/TEP_vid3.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.

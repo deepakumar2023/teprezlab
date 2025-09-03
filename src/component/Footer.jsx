@@ -10,7 +10,7 @@ export default function Footer() {
         {/* Left Section */}
         <div>
           <Link href="/" className="flex items-center mb-4">
-          <img src="/images/TEP_logo5.png" alt="Logo" className="h-12 mb-4" />
+            <img src="/images/TEP_logo5.png" alt="Logo" className="h-12 mb-4" />
           </Link>
           <p className="text-sm">
             We provide high-quality services tailored to your needs. Let’s build
@@ -22,11 +22,19 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-blue-400">Home</a></li>
-            <li><a href="#" className="hover:text-blue-400">About</a></li>
-            <li><a href="#" className="hover:text-blue-400">Services</a></li>
-            <li><a href="#" className="hover:text-blue-400">Gallery</a></li>
-            <li><a href="#" className="hover:text-blue-400">Contact</a></li>
+          
+            <li>
+              <Link href="/about" className="hover:text-blue-400">About</Link>
+            </li>
+            <li>
+              <Link href="/services" className="hover:text-blue-400">Services</Link>
+            </li>
+            <li>
+              <Link href="/gallery" className="hover:text-blue-400">Gallery</Link>
+            </li>
+            <li>
+              <Link href="/contact-us" className="hover:text-blue-400">Contact</Link>
+            </li>
           </ul>
         </div>
 
