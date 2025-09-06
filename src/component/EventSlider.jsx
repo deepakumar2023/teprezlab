@@ -26,7 +26,7 @@ export default function EventSlider() {
       <h2 className="text-white text-3xl sm:text-4xl font-bold mb-4">
         CREATIVE EVENTS WITH A CLASSIC STYLE
       </h2>
-      <p className="text-gray-300 max-w-2xl mx-auto mb-10 text-sm sm:text-base leading-relaxed">
+      <p className="text-gray-300 max-w-2xl mx-auto mb-10 text-sm sm:text-base leading-relaxed text-left">
         Target Event Prezlab aspires to create amazing work for our clients! Our
         culture inspired from our values of creativity, passion, curiosity,
         generosity, and intelligence motivates and challenges us to deliver

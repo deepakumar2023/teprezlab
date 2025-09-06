@@ -21,7 +21,7 @@ export default function Header() {
         <Link href="/" className="flex items-center">
           <div className="flex items-center">
             <img
-              src="https://teprezlab.com/images/TEP_logo5.png"
+              src="/TEP_logo5.png"
               alt="Logo"
               className="h-15 w-auto"
             />

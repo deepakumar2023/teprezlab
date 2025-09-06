@@ -42,13 +42,13 @@ function HomeSlider() {
                         <div className="relative w-full h-[500px]">
                             <Image
                                 src={slide.img}
-                                alt="Beef Slide"
+                                alt="img Slide"
                                 fill
                                 className="object-cover"
                                 priority
                             />
                             <div className="absolute inset-0 bg-black/40 flex items-center justify-center text-center p-4">
-                                <p className="text-white text-[13px] md:text-[15px] lg:text-[16px] font-medium max-w-2xl  font-serif">
+                                <p className="text-white text-[12px] md:text-[15px] lg:text-[16px] font-medium max-w-2xl  font-serif   text-left">
                                     {slide.text}
                                 </p>
                             </div>
@@ -56,7 +56,7 @@ function HomeSlider() {
                     </SwiperSlide>
                 ))}
             </Swiper>
-        </div>
+        </div>   
     )
 }
 
