@@ -1,7 +1,9 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Poppins} from "next/font/google";
+
 import "./globals.css";
-import Header from "@/component/Header";
+
 import Footer from "@/component/Footer";
+import Header from "@/component/header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,6 +15,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
+// Configure font
+const poppins = Poppins({
+  subsets: ["latin"],       // Required
+  weight: ["400", "500", "600", "700"], // choose weights you need
+  variable: "--font-poppins", // optional CSS variable
+});
+
 export const metadata = {
   title: "TARGET EVENT PREZLAB",
   description: "Today, we are the nation’s most reliable live, virtual and hybrid event production company. We’ve successfully produced events for leading brands, covering 12.2 million miles; engaging over 500,000 virtual participants for leading world-class corporate organizations.",
@@ -22,7 +32,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+       className={`${poppins.className} antialiased`}
       >
         <Header/>
         {children}

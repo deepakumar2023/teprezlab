@@ -1,7 +1,7 @@
 // src/components/Footer.jsx
 import Link from "next/link";
 import React from "react";
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -22,7 +22,7 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
           <ul className="space-y-2">
-          
+
             <li>
               <Link href="/about" className="hover:text-blue-400">About</Link>
             </li>
@@ -45,12 +45,12 @@ export default function Footer() {
           <p>Email: info@example.com</p>
           <p>Phone: +91 98765 43210</p>
 
-          {/* Social Icons */}
-          <div className="flex space-x-4 mt-4">
-            <a href="#" className="hover:text-blue-400"><FaFacebookF /></a>
-            <a href="#" className="hover:text-blue-400"><FaTwitter /></a>
-            <a href="#" className="hover:text-blue-400"><FaInstagram /></a>
-            <a href="#" className="hover:text-blue-400"><FaLinkedinIn /></a>
+
+          <div className="flex space-x-5 mt-4">
+            <a href="https://www.facebook.com/100087765681692/photos/625281963740654/?_rdr" className="hover:text-[#1877F2] text-[18px]"><FaFacebookF /></a>
+            <a href="#" className="hover:text-[#075E54]"><FaWhatsapp /></a>
+            <a href="https://www.instagram.com/teprezlab/?hl=en" className="hover:text-[#405DE6]"><FaInstagram /></a>
+            <a href="https://www.linkedin.com/company/target-event-prezlab-tep/?originalSubdomain=ae" className="hover:text-blue-400"><FaLinkedinIn /></a>
           </div>
         </div>
       </div>
