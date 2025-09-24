@@ -12,6 +12,7 @@ export default function Header() {
     { name: "Services", link: "/services" },
     { name: "Gallery", link: "/gallery" },
     { name: "Contact Us", link: "/contact-us" },
+    { name: "Corporate", link: "/corporate-retreats" },
   ];
 
   return (
