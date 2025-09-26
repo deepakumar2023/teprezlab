@@ -66,7 +66,7 @@ const Banner = () => {
         <div className="relative z-10 flex items-center justify-center h-full w-full px-4">
           <div className="text-center text-white max-w-3xl">
             <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-2 md:text-left sm:text-left text-left ">
-              We create mind-blowing events in a changing world
+              We create mind blowing events in a changing world
             </h1>
           </div>
         </div>
@@ -77,9 +77,9 @@ const Banner = () => {
       <section className="bg-[#f8f8f3] py-12">
         {/* Top Text */}
         <div className="max-w-4xl mx-auto text-center px-4">
-          <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
+          <p className="text-gray-700 text-sm sm:text-base leading-relaxed font-poppins  ">
             Transform the way your team collaborates, strategizes, and innovates with expertly curated corporate retreats and offsite experiences.
-            At Artisan Venture Tours, we design retreats that go beyond the typical work environment, offering a perfect balance of productivity and relaxation to foster creativity, deepen connections, and elevate company culture.
+            At Target Event Tours, we design retreats that go beyond the typical work environment, offering a perfect balance of productivity and relaxation to foster creativity, deepen connections, and elevate company culture.
           </p>
         </div>
 

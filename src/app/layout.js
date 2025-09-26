@@ -4,6 +4,9 @@ import "./globals.css";
 
 import Footer from "@/component/Footer";
 import Header from "@/component/header";
+import ScrollToTop from "@/component/important";
+
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,13 +18,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
-// Configure font
 const poppins = Poppins({
-  subsets: ["latin"],       // Required
-  weight: ["400", "500", "600", "700"], // choose weights you need
-  variable: "--font-poppins", // optional CSS variable
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-poppins",
 });
+
 
 export const metadata = {
   title: "TARGET EVENT PREZLAB",
@@ -32,11 +34,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-       className={`${poppins.className} antialiased`}
+       className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
       >
         <Header/>
         {children}
         <Footer/>
+        <ScrollToTop/>
       </body>
     </html>
   );

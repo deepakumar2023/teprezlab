@@ -26,7 +26,7 @@ export default function VideoSection() {
       <div className="relative z-10 flex items-center justify-center h-full w-full px-4">
         <div className="text-center text-white max-w-3xl">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 md:text-left sm:text-left">
-            We create mind-blowing events in a changing world
+            We create mind blowing events in a changing world
           </h1>
         </div>
       </div>

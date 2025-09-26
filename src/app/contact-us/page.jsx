@@ -33,6 +33,7 @@ function page() {
             <h3 className="font-bold text-lg mb-2">PHONE NUMBER</h3>
             <p className="text-sm">Mobile: +971 566 785 210</p>
             <p className="text-sm">Land line: +971 4250 5173</p>
+            <p className="text-sm">Primary No:+971 568913030</p>
           </div>
 
           {/* Email */}
