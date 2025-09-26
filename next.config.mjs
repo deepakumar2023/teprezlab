@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export", // ensures "out" folder is generated when running `next export`
+   trailingSlash: true, 
   images: {
     unoptimized: true, // disables server-based optimization, keeps <Image /> working in static export
   },

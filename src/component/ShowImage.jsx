@@ -40,7 +40,7 @@ function ShowImage() {
     },
     {
       title: "AVT ON-SITE ASSISTANCE",
-      image: "/corporate/show9.avif",
+      image: "/corporate/WhatsApp1.jpg",
     },
     {
       title: "HOTEL & LODGING RESERVATIONS",

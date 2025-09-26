@@ -8,11 +8,12 @@ export default function Header() {
 
   const menuItems = [
     { name: "Home", link: "/" },
-    { name: "About Us", link: "/about" },
+    { name: "About", link: "/about" },
     { name: "Services", link: "/services" },
+    { name: "Corporate", link: "/corporate-retreats" },
     { name: "Gallery", link: "/gallery" },
     { name: "Contact Us", link: "/contact-us" },
-    { name: "Corporate", link: "/corporate-retreats" },
+  
   ];
 
   return (

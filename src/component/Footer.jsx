@@ -29,9 +29,15 @@ export default function Footer() {
             <li>
               <Link href="/services" className="hover:text-blue-400">Services</Link>
             </li>
+             <li>
+              <Link href="/corporate-retreats" className="hover:text-blue-400">Corporate</Link>
+            </li>
             <li>
               <Link href="/gallery" className="hover:text-blue-400">Gallery</Link>
             </li>
+
+           
+           
             <li>
               <Link href="/contact-us" className="hover:text-blue-400">Contact</Link>
             </li>
@@ -41,16 +47,19 @@ export default function Footer() {
         {/* Right Section - Contact */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
-          <p>123 Business Street, City, Country</p>
-          <p>Email: info@example.com</p>
-          <p>Phone: +91 98765 43210</p>
+          <p>Target Event Prezlab.</p>
+          <p>Block B, Office B09-182, Sharjah Research</p>
+          <p>Technology and Innovation Park, Sharjah,</p>
+          <p>United Arab Emirates</p>
+          <p>Email : operations@teprezlab.com</p>
+          <p>Phone : +971 568913030</p>
 
 
           <div className="flex space-x-5 mt-4">
-            <a href="https://www.facebook.com/100087765681692/photos/625281963740654/?_rdr" className="hover:text-[#1877F2] text-[18px]"><FaFacebookF /></a>
-            <a href="#" className="hover:text-[#075E54]"><FaWhatsapp /></a>
-            <a href="https://www.instagram.com/teprezlab/?hl=en" className="hover:text-[#405DE6]"><FaInstagram /></a>
-            <a href="https://www.linkedin.com/company/target-event-prezlab-tep/?originalSubdomain=ae" className="hover:text-blue-400"><FaLinkedinIn /></a>
+            <a href="https://www.facebook.com/100087765681692/photos/625281963740654/?_rdr" className="hover:text-[#1877F2] text-[19px]"><FaFacebookF /></a>
+            <a href="#" className="hover:text-[#075E54] text-[19px]"><FaWhatsapp /></a>
+            <a href="https://www.instagram.com/teprezlab/?hl=en" className="hover:text-[#405DE6] text-[19px]"><FaInstagram /></a>
+            <a href="https://www.linkedin.com/company/target-event-prezlab-tep/?originalSubdomain=ae" className="hover:text-blue-400 text-[19px]"><FaLinkedinIn /></a>
           </div>
         </div>
       </div>

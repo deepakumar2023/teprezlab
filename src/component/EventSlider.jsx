@@ -8,15 +8,64 @@ import "swiper/css/pagination";
 export default function EventSlider() {
   const slides = [
     {
-      src: "https://cdn.pixabay.com/photo/2017/07/21/23/57/concert-2527495_1280.jpg",
+      src: "/creativeevent/test1.jpg",
       alt: "Concert Event",
     },
     {
-      src: "https://cdn.pixabay.com/photo/2020/02/17/11/58/africa-4856283_1280.jpg",
+      src: "/creativeevent/test2.jpg",
       alt: "African Event",
     },
     {
-      src: "https://cdn.pixabay.com/photo/2016/11/29/06/17/audience-1867754_1280.jpg",
+      src: "/creativeevent/test3.jpg",
+      alt: "Audience Event",
+    },
+    {
+      src: "/creativeevent/test4.jpg",
+      alt: "Audience Event",
+    },
+    {
+      src: "/creativeevent/test5.jpg",
+      alt: "Audience Event",
+    },
+    {
+      src: "/creativeevent/test6.jpg",
+      alt: "Audience Event",
+    },
+    {
+      src: "/creativeevent/test7.jpg",
+      alt: "Audience Event",
+    },
+    {
+      src: "/creativeevent/test8.jpg",
+      alt: "Audience Event",
+    },
+    {
+      src: "/creativeevent/test9.jpg",
+      alt: "Audience Event",
+    },
+    {
+      src: "/creativeevent/test10.jpg",
+      alt: "Audience Event",
+    },
+    {
+      src: "/creativeevent/test11.jpg",
+      alt: "Audience Event",
+    },
+    {
+      src: "/creativeevent/test12.jpg",
+      alt: "Audience Event",
+    },
+    {
+      src: "/creativeevent/test13.jpg",
+      alt: "Audience Event",
+    },
+   
+    {
+      src: "/creativeevent/test15.jpg",
+      alt: "Audience Event",
+    },
+    {
+      src: "/creativeevent/test16.jpg",
       alt: "Audience Event",
     },
   ];
@@ -50,7 +99,7 @@ export default function EventSlider() {
               <img
                 src={slide.src}
                 alt={slide.alt}
-                className="w-full h-64 sm:h-80 md:h-96 object-cover"
+                className="w-full h-64 sm:h-80 md:h-96  object-cover"
               />
             </SwiperSlide>
           ))}

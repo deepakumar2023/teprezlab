@@ -72,7 +72,7 @@ function TestExperience() {
             <p className="mt-4 text-gray-300 text-sm md:text-base leading-relaxed">
               Your team deserves more than just another meeting. They deserve an
               experience that energizes, inspires, and connects them. Partner
-              with Artisan Venture Tours to create a retreat that achieves your
+              with Target Event Tours to create a retreat that achieves your
               company’s goals while leaving a lasting impression.
             </p>
 
@@ -84,7 +84,7 @@ function TestExperience() {
           {/* Right Image */}
           <div className="flex-1 flex justify-center">
             <img
-              src="/corporate/right.avif"
+              src="/corporate/WhatsApp Image.jpg"
               alt="Retreat Event"
               className="rounded-xl shadow-md w-full max-w-sm object-cover"
             />
