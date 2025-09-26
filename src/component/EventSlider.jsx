@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 export default function EventSlider() {
   const slides = [
     {
-      src: "/creativeevent/test1.jpg",
+      src: "/creativeevent/img1.jpg",
       alt: "Concert Event",
     },
     {
