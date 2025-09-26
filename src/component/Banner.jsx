@@ -12,7 +12,7 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 const Banner = () => {
 
-   const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const openModal = (idx) => {
@@ -24,26 +24,26 @@ const Banner = () => {
 
   const prevImage = () =>
     setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
- const nextImage = () =>
-  setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+  const nextImage = () =>
+    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
 
 
 
   const images = [
-    "/corporate/test.avif",
-    "/corporate/test1.avif",
-    "/corporate/test2.avif",
-    "/corporate/test4.avif",
-    "/corporate/test5.avif",
-    "/corporate/test6.avif",
-    "/corporate/test7.avif",
-    "/corporate/test8.avif",
-    "/corporate/test9.avif",
-    "/corporate/test10.avif",
-    "/corporate/test11.avif",
-    "/corporate/test12.avif",
-    "/corporate/test13.avif",
-    
+    "/corporate/DSC_3795-Enhanced-NR.jpg",
+    "/corporate/DSC_3857.jpg",
+    "/corporate/DSC_1887.jpg",
+    "/corporate/DSC_2036.jpg",
+    "/corporate/DSC_2051.jpg",
+    "/corporate/DSC_3749.jpg",
+    "/corporate/DSC_1789.jpg",
+    "/corporate/DSC_1990.jpg",
+    "/corporate/DSC_1984.jpg",
+    "/corporate/DSC_1749.jpg",
+    "/corporate/DSC_1819.jpg",
+    "/corporate/DSC_3758.jpg",
+    "/corporate/DSC_1783.jpg",
+
 
   ];
 
@@ -85,78 +85,79 @@ const Banner = () => {
 
         {/* Swiper Slider */}
         <div className="mt-10 px-6">
-      {/* Swiper Slider */}
-      <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
-        rewind={false}
-        speed={4000}
-        loop={true}
-        slidesPerView={6}
-        spaceBetween={20}
-        autoplay={{
-          delay: 0,
-          disableOnInteraction: false,
-        }}
-        breakpoints={{
-          320: { slidesPerView: 1 },
-          640: { slidesPerView: 1.5 },
-          1024: { slidesPerView: 6 },
-          1280: { slidesPerView: 6 },
-        }}
-        grabCursor={true}
-      >
-        {images.map((src, idx) => (
-          <SwiperSlide key={idx}>
-            <div
-              className="overflow-hidden rounded-xl shadow-md transition-transform duration-300 hover:scale-105 cursor-pointer"
-              onClick={() => openModal(idx)}
-            >
+          {/* Swiper Slider */}
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            rewind={false}
+            speed={4000}
+            loop={true}
+            slidesPerView={6}
+            spaceBetween={20}
+            autoplay={{
+              delay: 0,
+              disableOnInteraction: false,
+            }}
+            breakpoints={{
+              320: { slidesPerView: 1 },
+              640: { slidesPerView: 1.5 },
+              1024: { slidesPerView: 6 },
+              1280: { slidesPerView: 6 },
+            }}
+            grabCursor={true}
+          >
+            {images.map((src, idx) => (
+              <SwiperSlide key={idx}>
+                <div
+                  className="overflow-hidden rounded-xl shadow-md transition-transform duration-300 hover:scale-105 cursor-pointer"
+                  onClick={() => openModal(idx)}
+                >
+                  <img
+                    src={src}
+                    alt={`Slide ${idx}`}
+                    className="w-full h-auto object-contain"   // 👈 auto height
+                    loading="lazy"
+                  />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+
+          {/* Modal */}
+          {isOpen && (
+            <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center">
+              {/* Close Button */}
+              <button
+                onClick={closeModal}
+                className="absolute top-5 right-5 text-white p-2 hover:text-gray-300"
+              >
+                <X size={32} />
+              </button>
+
+              {/* Left Arrow */}
+              <button
+                onClick={prevImage}
+                className="absolute left-5 text-white p-2 hover:text-gray-300"
+              >
+                <ChevronLeft size={48} />
+              </button>
+
+              {/* Right Arrow */}
+              <button
+                onClick={nextImage}
+                className="absolute right-5 text-white p-2 hover:text-gray-300"
+              >
+                <ChevronRight size={48} />
+              </button>
+
+              {/* Image */}
               <img
-                src={src}
-                alt={`Slide ${idx}`}
-                className="w-full h-50 object-cover"
+                src={images[currentIndex]}
+                alt={`Slide ${currentIndex}`}
+                className="max-h-[90vh] max-w-[90vw] object-contain rounded-lg"
               />
             </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-
-      {/* Modal */}
-      {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center">
-          {/* Close Button */}
-          <button
-            onClick={closeModal}
-            className="absolute top-5 right-5 text-white p-2 hover:text-gray-300"
-          >
-            <X size={32} />
-          </button>
-
-          {/* Left Arrow */}
-          <button
-            onClick={prevImage}
-            className="absolute left-5 text-white p-2 hover:text-gray-300"
-          >
-            <ChevronLeft size={48} />
-          </button>
-
-          {/* Right Arrow */}
-          <button
-            onClick={nextImage}
-            className="absolute right-5 text-white p-2 hover:text-gray-300"
-          >
-            <ChevronRight size={48} />
-          </button>
-
-          {/* Image */}
-          <img
-            src={images[currentIndex]}
-            alt={`Slide ${currentIndex}`}
-            className="max-h-[90vh] max-w-[90vw] object-contain rounded-lg"
-          />
+          )}
         </div>
-      )}
-    </div>
       </section>
     </>
   )

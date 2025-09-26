@@ -4,51 +4,51 @@ function ShowImage() {
      const services = [
     {
       title: "OUTDOOR ADVENTURES",
-      image: "/corporate/show.jpg",
+      image: "/creativeevent/DSC_3535.jpg",
     },
     {
       title: "TRANSPORTATION RENTALS",
-      image: "/corporate/show1.avif",
+      image: "/creativeevent/DSC_1361.jpg",
     },
     {
       title: "MEALS & CATERING",
-    image: "/corporate/show2.avif",
+    image: "/creativeevent/DSC_1419.jpg",
     },
     {
       title: "TRADITIONAL TEAM BUILDING",
-     image: "/corporate/show3.avif",
+     image: "/creativeevent/DSC_1428.jpg",
     },
     {
       title: "GIVE BACK TO THE COMMUNITY",
-     image: "/corporate/show4.avif",
+     image: "/creativeevent/DSC_1426.jpg",
     },
     {
       title: "VENUE SELECTION & SITE VISITS",
-      image: "/corporate/show5.avif",
+      image: "/creativeevent/DSC_1390.jpg",
     },
     {
       title: "VIP & LUXURY EXPERIENCES",
-      image: "/corporate/show6.avif",
+      image: "/creativeevent/DSC_1421.jpg",
     },
     {
       title: "SPEAKERS & WORKSHOPS",
-    image: "/corporate/show7.avif",
+    image: "/creativeevent/DSC_1399.jpg",
     },
     {
       title: "SPA TREATMENTS & RELAXATION",
-      image: "/corporate/show8.avif",
+      image: "/creativeevent/DSC_1408.jpg",
     },
     {
       title: "AVT ON-SITE ASSISTANCE",
-      image: "/corporate/WhatsApp1.jpg",
+      image: "/creativeevent/DJI_0934.jpg",
     },
     {
       title: "HOTEL & LODGING RESERVATIONS",
-    image: "/corporate/show10.avif",
+    image: "/creativeevent/DSC_1360.jpg",
     },
     {
       title: "EDUCATIONAL & CULTURAL TOURS",
-     image: "/corporate/show11.avif",
+     image: "/creativeevent/DSC_1375.jpg",
     },
   ];
   return (
