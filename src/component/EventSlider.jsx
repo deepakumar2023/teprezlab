@@ -55,10 +55,10 @@ export default function EventSlider() {
       src: "/creativeevent/test12.jpg",
       alt: "Audience Event",
     },
-    {
-      src: "/creativeevent/test13.jpg",
-      alt: "Audience Event",
-    },
+    // {
+    //   src: "/creativeevent/test13.jpg",
+    //   alt: "Audience Event",
+    // },
    
     {
       src: "/creativeevent/test15.jpg",

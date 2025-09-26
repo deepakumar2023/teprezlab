@@ -1,5 +1,6 @@
 import React from 'react'
 import ShowImage from './ShowImage';
+import Link from 'next/link';
 
 function TestExperience() {
  const experiences = [
@@ -77,7 +78,7 @@ function TestExperience() {
             </p>
 
             <button className="mt-6 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-400 text-white font-medium rounded-full shadow-md hover:shadow-lg transition">
-              Let&apos;s Get Started
+             <Link href={"/contact-us"}>  Let&apos;s Get Started </Link>
             </button>
           </div>
 
