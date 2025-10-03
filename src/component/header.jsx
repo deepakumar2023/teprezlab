@@ -47,6 +47,7 @@ export default function Header() {
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-black text-2xl"
+          aria-label="Open item"
         >
           {open ? <FaTimes /> : <FaBars />}
         </button>

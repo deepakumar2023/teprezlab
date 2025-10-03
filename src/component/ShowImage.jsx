@@ -19,7 +19,8 @@ function ShowImage() {
      image: "/creativeevent/DSC_1428.jpg",
     },
     {
-      title: "GIVE BACK TO THE COMMUNITY",
+      // title: "GIVE BACK TO THE COMMUNITY",
+      title: "Sustainability And greenery plants etc",
      image: "/creativeevent/DSC_1426.jpg",
     },
     {
@@ -39,7 +40,7 @@ function ShowImage() {
       image: "/creativeevent/DSC_1408.jpg",
     },
     {
-      title: "AVT ON-SITE ASSISTANCE",
+      title: "TEP ON-SITE ASSISTANCE",
       image: "/creativeevent/DJI_0934.jpg",
     },
     {

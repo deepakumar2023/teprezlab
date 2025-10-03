@@ -50,8 +50,7 @@ const Banner = () => {
   return (
 
     <>
-      <section className="relative w-full h-[50vh] sm:h-[60vh] md:h-[60vh] overflow-hidden">
-
+      {/* <section className="relative w-full h-[50vh] sm:h-[60vh] md:h-[60vh] overflow-hidden">
         <Image
           src={"/corporate/banner.avif"}
           className="absolute top-0 left-0 w-full h-full object-cover"
@@ -59,10 +58,7 @@ const Banner = () => {
           height={100}
           alt='test'
         />
-
-
-
-        {/* Content Over Video */}
+  
         <div className="relative z-10 flex items-center justify-center h-full w-full px-4">
           <div className="text-center text-white max-w-3xl">
             <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-2 md:text-left sm:text-left text-left ">
@@ -70,7 +66,25 @@ const Banner = () => {
             </h1>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <section className="relative w-full h-[50vh] sm:h-[60vh] md:h-[60vh] overflow-hidden">
+  <Image
+    src={"/corporate/banner.avif"}
+    className="absolute top-0 left-0 w-full h-full object-cover"
+    width={100}
+    height={100}
+    alt="test"
+  />
+  {/* Content Over Image */}
+  <div className="relative z-10 flex items-center justify-center h-full w-full px-4">
+    <div className="text-center text-white max-w-3xl">
+      <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-2 text-center">
+        We create mind blowing events in a changing world
+      </h1>
+    </div>
+  </div>
+</section>
 
 
 
