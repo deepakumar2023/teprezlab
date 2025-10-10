@@ -97,14 +97,9 @@ function ShowImage() {
       title: "OUTDOOR ADVENTURES",
 
        image:  "/creativeevent/DSC_3535.jpg",
-      image1: [
-        "/creativeevent/DSC_3535.jpg",
-        "/creativeevent/DSC_3535.jpg",
-        "/creativeevent/DSC_3535.jpg",
-        "/creativeevent/DSC_3535.jpg",
-        "/creativeevent/DSC_3535.jpg",
-      
-      ],
+      // image1: [
+      //   "/creativeevent/DSC_3535.jpg", 
+      // ],
     },
     {
       title: "TRANSPORTATION RENTALS",
@@ -126,6 +121,10 @@ function ShowImage() {
     {
       title: "In-house LED Screen/AV production – Branding",
       image: "/creativeevent/DSC_1390.jpg",
+ image1: [
+        "/creativeevent/DSC_3535.jpg", 
+      ],
+      
     },
     {
       title: "VIP & LUXURY EXPERIENCES",
