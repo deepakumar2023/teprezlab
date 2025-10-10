@@ -5,14 +5,14 @@ import Link from 'next/link';
 function TestExperience() {
  const experiences = [
     {
-      title: "Creative Problem-Solving Retreats",
+      title: "Creative Problem-Solving",
       description:
         "Take your team to an inspiring setting where they can tackle challenges with fresh perspectives.",
     },
     {
-      title: "Leadership Alignment Offsites",
+      title: "Leadership Alignment Offsites ",
       description:
-        "Refocus your leadership team with strategic planning in a calm, distraction-free environment.",
+        "Refocus your leadership team with strategic planning in a calm, distraction-free environment with us.",
     },
     {
       title: "Cultural Immersion Experiences",

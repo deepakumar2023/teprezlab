@@ -1,11 +1,11 @@
 // app/components/TargetEvent.jsx (Next.js 13+ App Router)
 export default function TargetEvent() {
   return (
-    <section className="flex items-center justify-center px-4 py-16 bg-white">
+    <section className="flex items-center justify-center px-4 py-12 bg-white">
       <div className="max-w-3xl text-center">
         {/* Title */}
-        <h2 className="text-2xl md:text-[1.875rem] font-bold text-blue-600 mb-6">
-          TARGET EVENT PREZLAB
+        <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold   font-serif  text-blue-600 mb-6">
+          Target Event Prezlab
         </h2>
 
         {/* Description */}

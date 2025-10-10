@@ -11,7 +11,7 @@ export default function WhyRetreatsMatter() {
             {/* Image */}
             <div className="rounded-xl overflow-hidden shadow-lg p-5">
               <Image
-                src={"/corporate/DSC_3857.jpg"}
+                src={"/corporate/Why Corporate Retreats Matter photo.jpeg"}
                 alt="Corporate Retreat"
                 className="w-full h-auto object-cover  rounded-xl "
                 width={100}
