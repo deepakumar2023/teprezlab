@@ -1,11 +1,10 @@
-import { Geist, Geist_Mono, Poppins} from "next/font/google";
+import { Geist, Geist_Mono, Poppins } from "next/font/google";
 
 import "./globals.css";
-
 import Footer from "@/component/Footer";
 import Header from "@/component/header";
 import ScrollToTop from "@/component/important";
-
+import WhatsAppButton from "@/component/WhatsAppButton";
 
 
 const geistSans = Geist({
@@ -24,22 +23,28 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-
 export const metadata = {
   title: "TARGET EVENT PREZLAB",
-  description: "Today, we are the nation’s most reliable live, virtual and hybrid event production company. We’ve successfully produced events for leading brands, covering 12.2 million miles; engaging over 500,000 virtual participants for leading world-class corporate organizations.",
+  description:
+    "Today, we are the nation’s most reliable live, virtual and hybrid event production company. We’ve successfully produced events for leading brands, covering 12.2 million miles; engaging over 500,000 virtual participants for leading world-class corporate organizations.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      
+      </head>
       <body
-       className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
       >
-        <Header/>
+      
+
+        <Header />
         {children}
-        <Footer/>
-        <ScrollToTop/>
+        <Footer />
+        <ScrollToTop />
+        <WhatsAppButton />
       </body>
     </html>
   );

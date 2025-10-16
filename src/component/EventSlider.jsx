@@ -7,14 +7,70 @@ import "swiper/css/pagination";
 
 export default function EventSlider() {
   const slides = [
+   
+   
     {
-      src: "/creativeevent/img1.jpg",
-      alt: "Concert Event",
+      src: "/creativeevent/Homepage(1).jpg",
+      alt: "Homepage1",
     },
     {
-      src: "/creativeevent/test2.jpg",
-      alt: "African Event",
+      src: "/creativeevent/Homepage(2).jpg",
+      alt: "Homepage2",
     },
+    {
+      src: "/creativeevent/Homepage(3).jpg",
+      alt: "Homepage3",
+    },
+    {
+      src: "/creativeevent/Homepage(4).jpg",
+      alt: "Homepage4",
+    },
+    {
+      src: "/creativeevent/Homepage(5).jpg",
+      alt: "Homepage5",
+    },
+    {
+      src: "/creativeevent/Homepage(6).jpg",
+      alt: "Homepage6",
+    },
+    {
+      src: "/creativeevent/Homepage(7).jpg",
+      alt: "Homepage7",
+    },
+    {
+      src: "/creativeevent/Homepage(8).jpg",
+      alt: "Homepage8",
+    },
+    {
+      src: "/creativeevent/Homepage(9).jpg",
+      alt: "Homepage9",
+    },
+    {
+      src: "/creativeevent/Homepage(10).jpg",
+      alt: "Homepage10",
+    },
+    {
+      src: "/creativeevent/Homepage (11).JPG",
+      alt: "Homepage11",
+    },
+    {
+      src: "/creativeevent/Homepage (12).JPG",
+      alt: "Homepage12",
+    },
+    {
+      src: "/creativeevent/Homepage(13).jpg",
+      alt: "Homepage13",
+    },
+    {
+      src: "/creativeevent/Homepage(14).jpg",
+      alt: "Homepage14",
+    },
+    {
+      src: "/creativeevent/Homepage(15).jpg",
+      alt: "Homepage15",
+    },
+
+   
     {
       src: "/creativeevent/test3.jpg",
       alt: "Audience Event",
@@ -27,14 +83,8 @@ export default function EventSlider() {
       src: "/creativeevent/test5.jpg",
       alt: "Audience Event",
     },
-    {
-      src: "/creativeevent/test6.jpg",
-      alt: "Audience Event",
-    },
-    {
-      src: "/creativeevent/test7.jpg",
-      alt: "Audience Event",
-    },
+
+    
     {
       src: "/creativeevent/test8.jpg",
       alt: "Audience Event",
@@ -43,39 +93,24 @@ export default function EventSlider() {
       src: "/creativeevent/test9.jpg",
       alt: "Audience Event",
     },
+
     {
       src: "/creativeevent/test10.jpg",
       alt: "Audience Event",
     },
-    {
-      src: "/creativeevent/test11.jpg",
-      alt: "Audience Event",
-    },
-    {
-      src: "/creativeevent/test12.jpg",
-      alt: "Audience Event",
-    },
-    {
-      src: "/creativeevent/test13.jpg",
-      alt: "Audience Event",
-    },
    
-    {
-      src: "/creativeevent/test15.jpg",
-      alt: "Audience Event",
-    },
-    {
-      src: "/creativeevent/test16.jpg",
-      alt: "Audience Event",
-    },
+    
+
+    
+   
   ];
 
   return (
-    <section className="bg-[#404040] text-center py-16 px-4">
-      <h2 className="text-white text-3xl sm:text-4xl font-bold mb-4">
-        CREATIVE EVENTS WITH A CLASSIC STYLE
-      </h2>
-      <p className="text-gray-300 max-w-2xl mx-auto mb-10 text-sm sm:text-base leading-relaxed text-left">
+    <section className="bg-[#2a2f8b] text-center py-5   sm:py-10 md:py-10 px-4">
+      <h3 className="text-white text-2xl sm:text-4xl md:text-5xl font-bold font-serif mb-4">
+       Creative Events with a Classic Style
+      </h3>
+      <p className="text-gray-300 max-w-2xl mx-auto mb-5 text-base leading-relaxed text-left text-[13px] sm:text-[18px]  md:text-[18px]   font-serif">
         Target Event Prezlab aspires to create amazing work for our clients! Our
         culture inspired from our values of creativity, passion, curiosity,
         generosity, and intelligence motivates and challenges us to deliver

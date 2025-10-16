@@ -1,24 +1,45 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+
+
+      useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const menuItems = [
     { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
+    // { name: "About", link: "/about" },
+     { name: "Corporate", link: "/corporate-retreats" },
     { name: "Services", link: "/services" },
-    { name: "Corporate", link: "/corporate-retreats" },
+   
     { name: "Gallery", link: "/gallery" },
+    { name: "FAQs", link: "/faqs" },
+    { name: "Career", link: "/carrier" },
     { name: "Contact Us", link: "/contact-us" },
   
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white z-50">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
+    <header  className={`top-0 left-0 w-full z-50 transition-all duration-300 ${
+        scrolled
+          ? "fixed bg-white shadow-md py-2"
+          : "absolute bg-transparent py-4"
+      }`}>
+      <div className=" mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <div className="flex items-center">
@@ -36,7 +57,9 @@ export default function Header() {
             <Link
               key={item.name}
               href={item.link}
-              className="text-black font-semibold hover:text-blue-400 transition"
+              className={`font-semibold transition ${
+                scrolled ? "text-black hover:text-blue-500" : "text-white hover:text-blue-400"
+              }`}
             >
               {item.name}
             </Link>
@@ -46,7 +69,10 @@ export default function Header() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-black text-2xl"
+          className={`md:hidden text-2xl ${
+            scrolled ? "text-black" : "text-white"
+          }`}
+          aria-label="Open item"
         >
           {open ? <FaTimes /> : <FaBars />}
         </button>

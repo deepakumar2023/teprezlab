@@ -5,14 +5,14 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaWhatsapp } from "r
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-10">
+    <footer className="bg-gradient-to-r   from-purple-600  to-[#322785] text-gray-300 py-10">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Left Section */}
         <div>
           <Link href="/" className="flex items-center mb-4">
             <img src="/images/TEP_logo5.png" alt="Logo" className="h-12 mb-4" />
           </Link>
-          <p className="text-sm">
+          <p className=" text-[13px] sm:text-[14px]  md:text-[14px]">
             We provide high-quality services tailored to your needs. Let’s build
             something great together.
           </p>

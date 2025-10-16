@@ -37,8 +37,8 @@ function Page() {
 
   return (
     <>
-      <section className="bg-[#404040] min-h-screen py-12 px-6 mt-15">
-        <h2 className="text-white text-3xl font-bold text-center mb-10">Gallery</h2>
+      <section className="bg-[#404040] min-h-screen py-12 px-6 ">
+        <h2 className="text-white text-3xl font-bold text-center mb-10 mt-10">Gallery</h2>
 
         {/* Gallery Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
