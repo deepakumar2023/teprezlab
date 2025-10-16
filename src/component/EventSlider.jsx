@@ -106,11 +106,11 @@ export default function EventSlider() {
   ];
 
   return (
-    <section className="bg-[#2a2f8b] text-center py-16 px-4">
+    <section className="bg-[#2a2f8b] text-center py-5   sm:py-10 md:py-10 px-4">
       <h3 className="text-white text-2xl sm:text-4xl md:text-5xl font-bold font-serif mb-4">
        Creative Events with a Classic Style
       </h3>
-      <p className="text-gray-300 max-w-2xl mx-auto mb-10 text-sm sm:text-base leading-relaxed text-left">
+      <p className="text-gray-300 max-w-2xl mx-auto mb-5 text-base leading-relaxed text-left text-[13px] sm:text-[18px]  md:text-[18px]   font-serif">
         Target Event Prezlab aspires to create amazing work for our clients! Our
         culture inspired from our values of creativity, passion, curiosity,
         generosity, and intelligence motivates and challenges us to deliver

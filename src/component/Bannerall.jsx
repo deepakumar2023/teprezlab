@@ -4,7 +4,7 @@ import React from "react";
 const BannerAll = ({ title, subtitle, image }) => {
   return (
     <div
-      className="relative w-full h-64 md:h-96 bg-cover bg-center"
+      className="relative w-full h-60 md:h-80 bg-cover bg-center"
       style={{ backgroundImage: `url(${image})` }}
     >
       <div className="absolute inset-0 bg-gradient-to-r  from-[#322785] to-purple-600 bg-opacity-50 flex flex-col items-center justify-center px-4">

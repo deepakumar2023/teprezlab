@@ -30,18 +30,26 @@ const Banner = () => {
 
 
   const images = [
-    "/corporate/DSC_3795-Enhanced-NR.jpg",
-    "/corporate/DSC_3857.jpg",
-    "/corporate/DSC_1887.jpg",
-    "/corporate/DSC_2036.jpg",
-    "/corporate/DSC_2051.jpg",
-    "/corporate/DSC_3749.jpg",
-    "/corporate/DSC_1789.jpg",
-    "/corporate/DSC_1990.jpg",
-    "/corporate/DSC_1984.jpg",
-    "/corporate/DSC_1749.jpg",
+    "/Inhouse LED & AV - Branding/Target Event Prezlab (205).jpg",
+    "/Inhouse LED & AV - Branding/Target Event Prezlab (26).jpg",
+    "/Speakers and workshops/APRA-09.jpg",
+     "/Tep OnSite/Target Event Prezlab (12).jpg",
+    "/Speakers and workshops/JAD_1557.JPG",
+    "/Tep OnSite/Target Event Prezlab (282).jpg",
+  
+    "/tradination team/IMG-20241014-WA0056.jpg",
+    "/tradination team/DSC_4112.JPG",
+    
+  
+    // "/corporate/DSC_2036.jpg",
+    // "/corporate/DSC_2051.jpg",
+    // "/corporate/DSC_3749.jpg",
+    // "/corporate/DSC_1789.jpg",
+    // "/corporate/DSC_1990.jpg",
+    // "/corporate/DSC_1984.jpg",
+    // "/corporate/DSC_1749.jpg",
     "/corporate/DSC_1819.jpg",
-    "/corporate/DSC_3758.jpg",
+    // "/corporate/DSC_3758.jpg",
     "/corporate/DSC_1783.jpg",
 
 
@@ -88,10 +96,10 @@ const Banner = () => {
 
 
 
-      <section className="bg-[#f8f8f3] py-12">
+      <section className="bg-[#f8f8f3] py-5   sm:py-10 md:py-10">
         {/* Top Text */}
         <div className="max-w-4xl mx-auto text-center px-4">
-          <p className="text-gray-700 text-sm sm:text-base leading-relaxed font-poppins  ">
+          <p className="text-gray-700  sm:text-base leading-relaxed text-[13px] sm:text-[18px]  md:text-[18px]   font-serif text-left">
             Transform the way your team collaborates, strategizes, and innovates with expertly curated corporate retreats and offsite experiences.
             At Target Event Tours, we design retreats that go beyond the typical work environment, offering a perfect balance of productivity and relaxation to foster creativity, deepen connections, and elevate company culture.
           </p>

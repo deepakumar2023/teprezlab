@@ -101,14 +101,14 @@ const services = [
 
 export default function EventSection() {
   return (
-    <section className="bg-gray-50 py-16 px-4 sm:px-8 md:px-12 lg:px-20">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <section className="bg-gray-50 py-5   sm:py-10 md:py-10  px-4 sm:px-8 md:px-12 lg:px-20">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* ---------- LEFT SECTION ---------- */}
         <div data-aos="fade-right" className="text-center md:text-left">
-          <h2 className="text-2xl sm:text-4xl md:text-4xl   font-serif font-bold text-blue-600 mb-6">
+          <h2 className="text-2xl sm:text-4xl md:text-4xl   font-serif font-bold text-blue-600 mb-2">
             Conferences, Exhibitions and Destination Meetings
           </h2>
-          <p className="text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
+          <p className="text-gray-700 leading-relaxed text-left    text-[13px] sm:text-[18px]  md:text-[18px]   font-serif  ">
             One of our services is to provide your next conference event needs.
             We are a one-stop event management company. We provide services such
             as finding an event venue, assistance with visas, tickets, hotel

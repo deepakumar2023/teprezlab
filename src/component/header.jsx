@@ -28,6 +28,7 @@ export default function Header() {
    
     { name: "Gallery", link: "/gallery" },
     { name: "FAQs", link: "/faqs" },
+    { name: "Career", link: "/carrier" },
     { name: "Contact Us", link: "/contact-us" },
   
   ];

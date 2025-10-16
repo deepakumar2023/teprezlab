@@ -12,7 +12,7 @@ export default function Footer() {
           <Link href="/" className="flex items-center mb-4">
             <img src="/images/TEP_logo5.png" alt="Logo" className="h-12 mb-4" />
           </Link>
-          <p className="text-sm">
+          <p className=" text-[13px] sm:text-[14px]  md:text-[14px]">
             We provide high-quality services tailored to your needs. Let’s build
             something great together.
           </p>

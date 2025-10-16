@@ -10,7 +10,7 @@ function Experience() {
   ];
 
   return (
-     <section className="bg-black text-white py-25 px-6">
+     <section className="bg-black text-white py-20 px-6  ">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
         {stats.map((stat, i) => (
           <div key={i}>
