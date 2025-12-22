@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import { Mail, MapPin, Clock } from "lucide-react";
-import BannerAll from "@/component/Bannerall";
+import BannerAll from "../../component/Bannerall";
 import { FaLocationDot } from "react-icons/fa6";
-import GoogleLocationMap from "@/component/GoogleLocationMap";
+import GoogleLocationMap from "../../component/GoogleLocationMap";
 
 export default function ContactPage() {
     return (

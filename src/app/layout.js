@@ -1,10 +1,10 @@
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 
 import "./globals.css";
-import Footer from "@/component/Footer";
-import Header from "@/component/header";
-import ScrollToTop from "@/component/important";
-import WhatsAppButton from "@/component/WhatsAppButton";
+import Footer from "../component/Footer";
+import Header from "../component/header";
+import ScrollToTop from "../component/important";
+import WhatsAppButton from "../component/WhatsAppButton";
 
 
 const geistSans = Geist({

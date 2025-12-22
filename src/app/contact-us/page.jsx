@@ -1,4 +1,4 @@
-import ContactForm from '@/component/ContactForm';
+import ContactForm from '../../component/ContactForm';
 import React from 'react'
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaGlobe } from "react-icons/fa";
 

@@ -1,6 +1,6 @@
 // components/FAQSection.jsx
 "use client";
-import BannerAll from "@/component/Bannerall";
+import BannerAll from "../../component/Bannerall";
 import { useState } from "react";
 
 const faqData = [
