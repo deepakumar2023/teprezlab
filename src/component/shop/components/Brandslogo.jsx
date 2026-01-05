@@ -73,8 +73,8 @@ function Brandslogo() {
               disableOnInteraction: false,
             }}
             breakpoints={{
-              320: { slidesPerView: 1 },
-              640: { slidesPerView: 1.5 },
+              320: { slidesPerView: 4 },
+              640: { slidesPerView: 3 },
               1024: { slidesPerView: 6 },
               1280: { slidesPerView: 6 },
             }}

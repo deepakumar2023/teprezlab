@@ -5,6 +5,8 @@ import React from 'react'
 const companyLogos = [
   // { src: "/brands/cocacola.png", alt: "Coca-Cola" },
   { src: "/brands/amazon.png", alt: "Amazon" },
+   { src: "/brands/logoelpida.webp", alt: "logoelpida" },
+     { src: "/brands/aavyna.webp", alt: "aavyna" },
   
   { src: "/brands/sephora.png", alt: "Sephora" },
   // { src: "/brands/netflix.png", alt: "Netflix" },
@@ -18,8 +20,8 @@ const companyLogos = [
   { src: "/brands/wework.png", alt: "wework" },
   { src: "/brands/stc.png", alt: "stc" },
   { src: "/brands/mazi.png", alt: "mazi" },
-  { src: "/brands/aavyna.webp", alt: "aavyna" },
-  { src: "/brands/logoelpida.webp", alt: "logoelpida" },
+
+ 
   // add more...
 ];
 

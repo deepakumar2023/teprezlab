@@ -99,7 +99,7 @@ export default function HomePage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-8 bg-white border-y border-gray-200">
+      {/* <section className="py-8 bg-white border-y border-gray-200">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
             <div className="space-y-2">
@@ -149,7 +149,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
   
 

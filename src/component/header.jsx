@@ -30,10 +30,11 @@ export default function Header() {
     { name: "Services", link: "/services" },
 
     { name: "Gallery", link: "/gallery" },
+      { name: "Marketing Merchandise", link: "/shop" },
     { name: "FAQs", link: "/faqs" },
     { name: "Career", link: "/carrier" },
     { name: "Contact Us", link: "/contact-us" },
-    { name: "Shop", link: "/shop" },
+  
   ];
 
   return (
