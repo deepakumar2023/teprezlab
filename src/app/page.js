@@ -1,11 +1,12 @@
 
 
-import EventServices from "@/component/EventServices";
-import EventSlider from "@/component/EventSlider";
-import Experience from "@/component/Experience";
-import VideoSection from "@/component/HeaderSlider";
-import HomeSlider from "@/component/HomeSlider";
-import TargetEvent from "@/component/TargetEvent";
+import EventSection from "../component/EventServices";
+// import EventServices from "@/component/EventServices";
+import EventSlider from "../component/EventSlider";
+import Experience from "../component/Experience";
+import VideoSection from "../component/HeaderSlider";
+
+import TargetEvent from "../component/TargetEvent";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
 <TargetEvent/>
 <Experience/>
 <EventSlider/>
-<EventServices/>
+<EventSection />
 {/* <HomeSlider/> */}
     </div>
   );

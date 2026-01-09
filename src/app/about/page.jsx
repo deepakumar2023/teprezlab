@@ -1,4 +1,4 @@
-import SEO from '@/component/SEO'
+import SEO from '../../component/SEO'
 import React from 'react'
 
 function page() {

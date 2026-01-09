@@ -90,7 +90,7 @@ const services = [
   { title: "REGISTRATIONS", img: "/dimondshape/Registrations.jpg" },
   { title: "TRANSPORTATION", img: "/dimondshape/Transportation.jpg" },
   { title: "PROFESSIONAL MANAGEMENT DEVELOPMENT TRAINING", img: "/dimondshape/ProfessionalManagement.png" },
-  { title: "DESTINATION MANAGEMENT", img: "/dimondshape/DestinationManagement.jpg" },
+  // { title: "DESTINATION MANAGEMENT", img: "/dimondshape/DestinationManagement.jpg" },
   { title: "ACCOMMODATIONS", img: "/dimondshape/Accommodations.jpg" },
   { title: "AV/PRODUCTION", img: "/dimondshape/AV_Production.jpg" },
   { title: "LEGAL PERMITS", img: "/dimondshape/Legal_Permits.jpg" },
